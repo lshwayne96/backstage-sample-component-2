@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-sample-component-2
+  description: "backstage sample component 2"
+  annotations:
+    github.com/project-slug: lshwayne96/backstage-sample-component-2
+    backstage.io/techdocs-ref: dir:.
+    mcc/techdocs-builder: external
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/readers
